@@ -5,7 +5,7 @@
  * @param {string} config - The base to raise
  * @return {string} - The exponent power
  */
-//  TODO: test function
+
 export const cleanConfig = (config) => {
   return config.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"');
 };

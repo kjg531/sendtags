@@ -5,7 +5,6 @@
  * @param {string} sendTo - The base to raise
  * @return {string} - The exponent power
  */
-//  TODO: test function
 export const cleanSendTo = (sendTo) => {
   return sendTo
     .replace(/[\u2018\u2019]/g, "'")
