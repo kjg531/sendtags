@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import SendTags from './SendTags';
+import SendTags from './components/SendTags';
 
 function App() {
   return (
