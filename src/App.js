@@ -5,8 +5,10 @@ import SendTags from './SendTags';
 function App() {
   return (
     <div className="App">
-      <header className="App-header" style={{backgroundColor: "#153D5C"}}>
-      <img alt="nr_beta_logo" 
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+        rel="stylesheet"
+      />
           src="https://noterouter-staging.firebaseapp.com/static/media/logo.b10c9223.png" 
           style={{width: '30%'}} />
         <SendTags />
