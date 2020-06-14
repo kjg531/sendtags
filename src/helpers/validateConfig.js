@@ -7,7 +7,6 @@ import { cleanConfig } from './cleanConfig';
  * @param {string} config - The base to raise
  * @return {boolean} - The exponent power
  */
-//  TODO: test function
 export function validateConfig(config) {
   try {
     JSON.parse(cleanConfig(config));
