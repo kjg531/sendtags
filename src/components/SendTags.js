@@ -40,7 +40,6 @@ export default function SendTags() {
     event.preventDefault();
 
     // Submit and display result
-
     // false == OR // true == AND
     if (sendType === true) updateRecipients(determineRecipients(config, sendTo, 'AND'));
 

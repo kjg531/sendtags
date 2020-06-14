@@ -1,8 +1,15 @@
 import { cleanConfig } from '../helpers/cleanConfig';
 import { cleanSendTo } from '../helpers/cleanSendTo';
 
+/**
+ * Function that determines a list of people to send to.
+ * @param {string} config - JSON
+ * @param {string} sendTo - CSV
+ * @param {string} sendType - AND or OR
+ * @return {array}
+ */
+//  TODO: test function
 export const determineRecipients = (config, sendTo, sendType) => {
-  // TODO: document and test
   let configObject = null;
   let recipients = [];
   let sendToArray = [];
