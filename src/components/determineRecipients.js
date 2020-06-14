@@ -8,7 +8,6 @@ import { cleanSendTo } from '../helpers/cleanSendTo';
  * @param {string} sendType - AND or OR
  * @return {array}
  */
-//  TODO: test function
 export const determineRecipients = (config, sendTo, sendType) => {
   let configObject = null;
   let recipients = [];
