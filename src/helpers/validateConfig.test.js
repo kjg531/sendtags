@@ -1,5 +1,5 @@
 import { validateConfig } from './validateConfig';
-test('cleans config of curly quotes', () => {
+test('validates config using json parse', () => {
   expect(validateConfig('{“Spiderman”: [“hero”, “tough”, “smart”, “tall”]}')).toBe(true);
   expect(validateConfig('{“Spiderman”: [“hero”, “tough”,, “smart”, “tall”]}')).toBe(
     false,

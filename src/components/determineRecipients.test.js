@@ -1,6 +1,6 @@
 import { determineRecipients } from './determineRecipients';
 
-test('cleans config of curly quotes', () => {
+test('determine recipients', () => {
   expect(
     determineRecipients(
       '{ “Human Torch”: [“hero”, “mutant”, “tough”, “dumb”, “tall”], “Spiderman”: [“hero”, “tough”, “smart”, “tall”], “Kyle”: [“human”, “weak”, “smart”, “short”], “JonJon”: [“human”, “strong”, “smart”, “tall”, “weird”] }',
